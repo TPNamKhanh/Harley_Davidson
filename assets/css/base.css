@@ -155,3 +155,43 @@ html {
     width: 170px;
     margin-bottom: 8px;
 }
+
+/* Arrow */
+.arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+}
+
+.arrow-link {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 42px;
+    text-decoration: none;
+    color: var(--white-color);
+    text-align: center;
+    line-height: 60px;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.arrow-icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.arrow-left {
+    left: 6px;
+}
+
+.arrow-right {
+    right: 6px;
+}
+
+/* Section */
+
+.section {
+    position: relative;
+    padding: 55px 0;
+}

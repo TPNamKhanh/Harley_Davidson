@@ -211,6 +211,10 @@
 
 
 /* Navigation */
+.navbar-wrapper {
+    border-bottom: 1px solid #ccc;
+}
+
 .navbar {
     list-style: none;
     display: flex;
@@ -267,7 +271,7 @@
     display: inline-block;
 }
 
-.sub-nav .sub-nav-first-item  a {
+.sub-nav .sub-nav-first-item  >a {
     display: inline-block;
     padding: 12px;
     border-top: none;
@@ -295,40 +299,17 @@
     background-repeat: no-repeat;
 }
 
-.slider__arrow {
-    position: absolute;
-    top:275px;
-}
-
-.slider__arrow-link {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    font-size: 42px;
-    text-decoration: none;
-    color: var(--white-color);
-    text-align: center;
-    line-height: 60px;
-    background-color: rgba(0, 0, 0, 0.3);
-    z-index: 1;
-}
-
-.slider__arrow-icon {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.arrow-left {
+.slider__arrow-left {
     left: 0;
 }
 
-.arrow-right {
+.slider__arrow-right {
     right: 0;
 }
 
 .slider__page-container{
     position: absolute;
-    bottom: 32px;
+    bottom: 34px;
     right: 0;
     left: 0;
     display: flex;
@@ -336,9 +317,9 @@
 }
 
 .slider__page {
+    display: inline-block;
     width: 18px;
     height: 18px;
-    display: inline-block;
     background-color: var(--white-color);
     margin: 0 3px;
     border-radius: 50%;
@@ -348,4 +329,57 @@
     background-color: var(--primary-color);
     width: 22px;
     height: 22px;
+}
+
+/* Category */
+.category {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.category-item {
+    padding-top: 258px;
+    padding-right: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.category-item__link {
+    text-decoration: none;
+    color: var(--white-color);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+.category-item__link-text {
+    position: absolute;
+    display: block;
+    padding: 0 14px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.category-item__link:hover  .category-item__link-text{
+    height: 50%;
+    bottom: 0;
 }
