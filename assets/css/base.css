@@ -195,3 +195,19 @@ html {
     position: relative;
     padding: 55px 0;
 }
+
+/* Button */
+.btn {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white-color);
+    border: none;
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    text-align: center;
+}
+
+/* Down arrow */
+.down-icon {
+    margin-left: 2px;
+}
