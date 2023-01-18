@@ -445,3 +445,37 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/* Sub-memu */
+.sub-menu {
+    list-style: none;
+    background-color: var(--white-color);
+    padding: 0;
+    margin: 2px 0;
+    max-height: 300px;
+    display: none;
+}
+
+.search-content__menu:active .sub-menu {
+    display: block;
+}
+
+.sub-menu__item {
+    font-size: 1.6rem;
+    padding: 10px 5px;
+    cursor: default;
+}
+
+.sub-menu__item:hover {
+    background-color: #f2f2f2;
+}
+
+.sub-menu__item:first-child {
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-menu__icon {
+    margin-right: 10px;
+}

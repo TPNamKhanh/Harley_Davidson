@@ -17,6 +17,10 @@ html {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Overflow-y */
+.overflow-y{
+    overflow-y: scroll;
+}
 /* Responsive */
 .grid {
     width: 1200px;
@@ -198,6 +202,7 @@ html {
 
 /* Button */
 .btn {
+    display: inline-block;
     font-size: 1.6rem;
     font-weight: 600;
     color: var(--white-color);
@@ -205,6 +210,11 @@ html {
     background-color: var(--primary-color);
     padding: 12px 24px;
     text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #bd5800;
 }
 
 /* Down arrow */
