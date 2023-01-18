@@ -385,16 +385,6 @@
     
 }
 
-.search-heading {
-    color: var(--white-color);
-    font-size: 4.4rem;
-    margin: 0 0 10px 0;
-    line-height: 4.9rem;
-    width: 1200;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 .search-content {
 }
 
@@ -478,4 +468,57 @@
 
 .sub-menu__icon {
     margin-right: 10px;
+}
+
+/* Available */
+.available-list {
+    margin-top: 20px;
+    display: flex;
+}
+
+.available-item {
+    background-color: var(--white-color);
+    margin: 0 10px;
+    text-align: center;
+}
+
+.available-item:last-child .available-link {
+    margin-bottom: 29px;
+}
+
+.available-link {
+    display: flex;
+    padding-top: 216px;
+    padding-right: 380px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.available-item__desc {
+    padding: 15px;
+}
+
+.available-item__text {
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+}
+
+.available-item__price {
+    color: var(--primary-color);
+    font-size: 3.2rem;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+.available-item__info-list {
+    margin: 12px 0 18px;
+}
+
+.available-item__info-item {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
 }

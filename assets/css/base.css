@@ -198,6 +198,20 @@ html {
 .section {
     position: relative;
     padding: 55px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-heading {
+    color: var(--white-color);
+    font-size: 4.4rem;
+    margin: 0 0 10px 0;
+    line-height: 4.9rem;
+    width: 1200;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 /* Button */
@@ -211,6 +225,7 @@ html {
     padding: 12px 24px;
     text-align: center;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .btn:hover {
