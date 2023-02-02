@@ -671,10 +671,6 @@
 
 
 /* Footer mid */
-.footer-mid {
-    
-}
-
 .footer-row {
     display: flex;
 }
@@ -798,3 +794,60 @@
 .footer-times__dates--sunday {
     margin-right: 60px;
 }
+
+/* Footer-bottom */
+.footer-bottom {
+
+}
+
+.footer-row {
+
+}
+
+.footer-bottom__info {
+
+}
+
+.footer-bottom__text {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.4;
+    margin: 0 0 5px 0;
+}
+
+.footer-bottom__img {
+    max-height: 50px;
+}
+
+.footer-bottom__link {
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+.footer-bottom__text-link {
+   text-decoration: none;
+   font-weight: 600;
+   color: #6B6561;
+}
+
+.footer-bottom__text-img {
+    max-height: 12px;
+    width: 170px;
+}
+
+.footer-bottom__social {
+    margin-left: auto;
+    align-self: center;
+    font-size: 24px;
+}
+
+.footer-bottom__social-link {
+    text-decoration: none;
+    display: inline-block;
+    color: #666;
+}
+
+.footer-bottom__social-icon {
+    margin-right: 5px;
+}
+
